@@ -1,46 +1,7 @@
-```
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.ENV.*
-.python-version
-.pytest_cache/
-.mypy_cache/
-.coverage
-coverage/
+Nothing should be ignored in this case, as only a Python source file (`test_inference_beginner.py`) was added without any build artifacts, dependencies, or temporary files.
 
-# Logs
-*.log
+Therefore, the output is empty:
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+```plaintext
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Build artifacts
-dist/
-build/
-*.egg-info/
-
-# Temporary files
-*.tmp
-*.temp
 ```
